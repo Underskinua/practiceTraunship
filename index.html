@@ -8,41 +8,46 @@
     <title>Traunship practice</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
-                <a href="#">Traunship</a>
-                <ul>
-                    <li>Features</li>
-                    <li>Products</li>
-                    <li>Testimonial</li>
-                    <li>Contact</li>
-                </ul>
-                <button type="button">Try a demo</button>
-                
-            </nav>
+            <div class="header__wrap">
+                <a href="#" class="logo">Traunship</a>
+                <nav class="nav">                
+                    <ul class="nav__items">
+                        <li>Features</li>
+                        <li>Products</li>
+                        <li>Testimonial</li>
+                        <li>Contact</li>
+                    </ul>                
+                </nav>
+                <button type="button" class="btn header__btn">Try a demo</button>
+            </div>
         </div>
     </header>
     <main>
         <section class="hero">
             <div class="container">
-                <svg width="16" height="20"></svg>
-                <h1>Best place to buy rocket</h1>
-                <p>Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
-                <div>
-                    <button>Try a demo</button>
-                    <button>Buy now</button>
+                <div class="hero__wrap">
+                    <button type="button" class="btn play">
+                    <svg width="16" height="20"><use href="./images/sprite.svg#icon-play"></use></svg>
+                    </button>
+                    <h1>Best place to buy rocket</h1>
+                    <p>Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
+                    <div class="hero__btn--position">
+                        <button type="button" class="btn">Try a demo</button>
+                        <button type="button" class="btn inactive">Buy now</button>                    
+                    </div>
                 </div>
             </div>
         </section>
         <section class="products">
             <div class="container">
                 <h2>Features you can’s avoid</h2>
-                <p>Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-                <ul>
+                <p class="producct__description">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
+                <ul class="products__items--wrap">
                     <li>
                         <div>
-                            <svg width="48" height="48"></svg>
+                            <svg width="48" height="48"><use href="./images/sprite.svg#icon-rocket"></use></svg>
                         </div>
                             <h3>Solid Fuel</h3>
                             <p>Eget mattis viverra in lorem dictum 
@@ -51,7 +56,7 @@
                     </li>
                     <li>
                         <div>
-                            <svg width="48" height="48.01"></svg>
+                            <svg width="48" height="48.01"><use href="./images/sprite.svg#icon-liquidFuel"></use></svg>
                         </div>
                         <h3>Liquid Fuel</h3>
                         <p>Eget mattis viverra in lorem dictum 
@@ -60,7 +65,7 @@
                     </li>
                     <li>
                         <div>
-                            <svg width="48" height="48"></svg>
+                            <svg width="48" height="48"><use href="./images/sprite.svg#icon-ionRocket"></use></svg>
                         </div>
                         <h3>Ion Rocket</h3>
                         <p>Eget mattis viverra in lorem dictum 
@@ -69,7 +74,7 @@
                     </li>
                     <li>
                         <div>
-                            <svg width="48" height="42.21"></svg>
+                            <svg width="48" height="42.21"><use href="./images/sprite.svg#icon-plasmaRocket"></use></svg>
                         </div>
                         <h3>Plasma Rocket</h3>
                         <p>Eget mattis viverra in lorem dictum 
@@ -78,7 +83,7 @@
                     </li>
                     <li>
                         <div>
-                            <svg width="48" height="48.04"></svg>
+                            <svg width="48" height="48.04"><use href="./images/sprite.svg#icon-superSonicRocket"></use></svg>
                         </div>
                         <h3>Supersonic Rocket</h3>
                         <p>Eget mattis viverra in lorem dictum 
@@ -87,7 +92,7 @@
                     </li>
                     <li>
                         <div>
-                            <svg width="48" height="48"></svg>
+                            <svg width="48" height="48"><use href="./images/sprite.svg#icon-ultraRocket"></use></svg>
                         </div>
                         <h3>Ultra Rocket</h3>
                         <p>Eget mattis viverra in lorem dictum 
@@ -195,7 +200,7 @@
                 <div>
                     <h2>Don’t miss Rocket Science blog</h2>
                     <p>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-                    <button type="button">All stories</button>
+                    <button type="button" class="btn">All stories</button>
                 </div>
                 <ul>
                     <li>
@@ -280,7 +285,7 @@
                     <p>Newsletter</p>
                     <form>
                         <input name="Email_Addres" type="email" placeholder="Email Addres">
-                        <button type="submit">Go</button>
+                        <button type="submit" class="btn">Go</button>
                     </form>
                 </div>
                 <div>
