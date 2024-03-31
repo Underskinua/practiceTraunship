@@ -1,8 +1,26 @@
 .testimonials {
-    background-image: url(../../images/#);
+    background-image: url(../../images/testimonial.jpg);
     background-color: var(--bg-testimonial-color);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 799px;    
-    position: relative;
+    background-position: left center;
+    height: 600px;    
+    
+}
+
+.testimonials__wrap {
+    width: 445px;    
+    padding-top: 132px;    
+    padding-left: 665px;
+    
+    & h2 {
+        font-weight: 700;
+        font-size: 48px;
+        color: var(--brown-color);
+        margin-bottom: 18px;
+    }
+    & p {
+        font-size: 24px;
+        color: var(--brown-color);
+        margin-bottom: 28px;
+    }
 }
