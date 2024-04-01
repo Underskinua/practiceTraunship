@@ -1,0 +1,17 @@
+.features {
+    padding: 110px 0 121px;
+    & h2 {
+        margin-bottom: 35px;
+    }     
+}
+
+.features {
+    h2 + p {  
+        width: 920px;      
+        font-size: 24px;
+        margin: 0 auto 90px;        
+    }
+}
+
+
+

@@ -1,18 +1,19 @@
 .products {
-    padding: 120px 0 153px;     
-    & h2 {
-        font-weight: 700;
-        font-size: 64px;
-        color: var(--headline-h2-color);      
-        text-align: center;  
-        margin-bottom: 24px;
-    }
-   & .producct__description {
+    padding: 120px 0 153px;         
+   & .description {
     width: 920px;
     font-size: 24px;
     text-align: center;
     margin: 0 auto 132px;
    }
+}
+
+.headline {    
+        font-weight: 700;
+        font-size: 64px;
+        color: var(--headline-h2-color);      
+        text-align: center;  
+        margin-bottom: 24px;    
 }
 
 .products__items--wrap {
