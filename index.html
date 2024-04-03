@@ -14,10 +14,10 @@
                 <a href="#" class="logo">Traunship</a>
                 <nav class="nav">                
                     <ul class="nav__items">
-                        <li>Features</li>
-                        <li>Products</li>
-                        <li>Testimonial</li>
-                        <li>Contact</li>
+                        <li><a href="#" class="link">Features</a></li>
+                        <li><a href="#" class="link">Products</a></li>
+                        <li><a href="#" class="link">Testimonial</a></li>
+                        <li><a href="#" class="link">Contact</a></li>
                     </ul>                
                 </nav>
                 <button type="button" class="btn header__btn">Try a demo</button>
@@ -261,19 +261,22 @@
         </section>
         
     </main>
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div>
-                <div><a herf="#">Traunship</a></div>
-                <address>
-                    <p>4517 Washington Ave. Manchester,
-                        Kentucky 39495</p>
-                    <ul>
-                        <li>(684) 555-0102</li>
-                        <li>(603) 555-0123</li>
-                    </ul>
-                </address>
-                <div>
+            <div class="footer__content--wrap">
+                <div class="footer__address">
+                    <a href="#" class="link">Traunship</a>
+                    <address class="footer__address--content">
+                        <ul>
+                        <li><p>4517 Washington Ave. Manchester,<br>
+                            Kentucky 39495</p></li>
+                        
+                            <li><p>(684) 555-0102</p></li>
+                            <li><p>(603) 555-0123</p></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer__page--link">
                     <p>Quick Links</p>
                     <ul>
                         <li><a href="#">Features</a></li>
@@ -282,28 +285,29 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="footer__form--wraper">
                     <p>Newsletter</p>
-                    <form>
-                        <input name="Email_Addres" type="email" placeholder="Email Addres">
+                    <form class="form__content">
+                        <p>We send updates in every week</p>
+                        <input name="Email_Addres" class="form__content--field"
+                         type="email" placeholder="Email Addres">
                         <button type="submit" class="btn">Go</button>
                     </form>
                 </div>
-                <div>
-                    <p>© 2021 Traunship. All right reserved.</p>
-                    <ul>
-                        <!--facebook-->
-                        <li><a href="#"><svg width="5.2" height="10"></svg></a></li>
-                        <!--twitter-->
-                        <li><a href="#"><svg width="11.01" height="9.36"></svg></a></li>
-                        <!--instagram-->
-                        <li><a href="#"><svg width="10.01" height="10"></svg></a></li>
-                        <!--linkedin-->
-                        <li><a href="#"><svg width="10.71" height="10.73"></svg></a></li>
-                    </ul>
-                </div>
+            </div>    
 
-            </div>
+                <div class="footer__social--wraper">
+                    <p>© 2021 Traunship. All right reserved.</p>
+                    <ul class="footer__social--link">                        
+                        <li><a href="#"><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-facebook"></use></svg></a></li>
+                        
+                        <li><a href="#"><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-twitter"></use></svg></a></li>
+                        
+                        <li><a href="#"><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-instagram"></use></svg></a></li>
+                        
+                        <li><a href="#"><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-linkedin"></use></svg></a></li>
+                    </ul>
+                </div> 
 
         </div>
     </footer>

@@ -1,12 +1,14 @@
+.header a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 .header__wrap {
     display: flex;   
     align-items: center;    
     position: absolute;
     margin-top: 77px;   
-    z-index: 9;
-    & a {
-        text-decoration: none;
-    }    
+    z-index: 9;    
 }
 
 .hero {
@@ -44,8 +46,7 @@
 .nav__items {
     display: flex;
     gap: 50px;
-    font-size: 18px;
-    color: var(--white-color);
+    font-size: 18px;    
 }
 
 .logo {
