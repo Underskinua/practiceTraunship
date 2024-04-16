@@ -3,7 +3,7 @@
     
     & h2 {
         margin-bottom: 35px;
-    }     
+    }        
 }
 
 .features {
@@ -14,7 +14,7 @@
     }
 }
 
-.featuring__img--list {
+.features__items {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 30px;
@@ -22,13 +22,13 @@
     & li {
         width: 540px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-basis: calc((100% - 30px) / 2);
     } 
 }
 
-.featuring__img--description {
+.features__item--description {
     width: 310px;
     & h3 {
         font-weight: 700;

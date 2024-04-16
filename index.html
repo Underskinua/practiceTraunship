@@ -42,9 +42,9 @@
         </section>
         <section class="products">
             <div class="container">
-                <h2 class="headline">Features you can’s avoid</h2>
+                <h2 class="section__title">Features you can’s avoid</h2>
                 <p class="description">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-                <ul class="products__items--wrap">
+                <ul class="products__items">
                     <li>
                         <div>
                             <svg width="48" height="48"><use href="./images/sprite.svg#icon-rocket"></use></svg>
@@ -104,10 +104,10 @@
         </section>
         <section class="testimonials">
             <div class="container">
-                <div class="testimonials__wrap">
+                <div class="testimonials__content">
                     <h2>“Right time to invest into space”</h2>
                     <p>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-                    <div class="testimonials__content">
+                    <div class="testimonials__feedback">
                         <img src="./images/Milon_Ask.png" width="64" height="64">
                         
                         <p>Milon Ask<br>CEO, Blackhole</p>
@@ -118,30 +118,32 @@
         </section>
         <section class="features">
             <div class="container">
-                <h2 class="headline">Affordable, good quality.</h2>
+                <h2 class="section__title">Affordable, good quality.</h2>
                 <p>Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-                <ul class="featuring__img--list">
+                <ul class="features__items">
                     <li>
-                        <div class="featuring__img">
-                            <picture>
-                                <source srcset="./images/Milon_1.webp 1x, ./images/Milon_2x.webp 2x" media="" type="image/webp">
+                        <div class="features__item--img-wrapper">
+                            <img src="./images/Milon_1.jpg" alt="" width="200"/>
+                            <!-- <picture>
+                                <source srcset="./images/Milon_1.webp 1x, ./images/Milon_2x.webp 2x" media="(min-width: 1140px)" type="image/webp"/>
+                                <source srcset="./images/Milon_1.jpg 1x, ./images/Milon_2x.jpg 2x" media="(min-width: 1140px)"/>
+                                 <source srcset="#" media="" type="image/webp">
                                 <source srcset="#" media="" >
-                                <source srcset="#" media="" type="image/webp">
+                                <source srcset="#" media="" type="image/webp"> 
                                 <source srcset="#" media="" >
-                                <source srcset="#" media="" type="image/webp">
-                                <source srcset="#" media="" >
-                                <img src="./images/Milon_1.jpg" alt="" width="200">
-                            </picture>
+                                <img src="./images/Milon_1.jpg" alt="" width="200"/>
+                            </picture> -->
                         </div>
-                        <div class="featuring__img--description">
+                        <div class="features__item--description">
                             <h3>Million pounds of thrust                            
                             </h3>
                             <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p><a href="">Learn more</a>
                         </div>
                     </li>
                     <li>
-                        <div class="featuring__img">
-                            <picture>
+                        <div class="features__item--img-wrapper">
+                            <img src="./images/MoreThen_1x.jpg" alt="" width="200" >
+                            <!-- <picture>
                                 <source srcset="#" media="" type="image/webp">
                                 <source srcset="#" media="" >
                                 <source srcset="#" media="" type="image/webp">
@@ -149,35 +151,18 @@
                                 <source srcset="#" media="" type="image/webp">
                                 <source srcset="#" media="" >
                                 <img src="#" alt="" width="200" >
-                            </picture>
+                            </picture> -->
                         </div>
-                        <div class="featuring__img--description">
-                            <h3>Atlas launched Friendship             
-                            </h3>
-                            <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p><a href="">Learn more</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="featuring__img">
-                            <picture>
-                                <source srcset="#" media="" type="image/webp">
-                                <source srcset="#" media="" >
-                                <source srcset="#" media="" type="image/webp">
-                                <source srcset="#" media="" >
-                                <source srcset="#" media="" type="image/webp">
-                                <source srcset="#" media="" >
-                                <img src="#" alt="" width="200" >
-                            </picture>
-                        </div>
-                        <div class="featuring__img--description">
+                        <div class="features__item--description">
                             <h3>More than 1,300 missions                          
                             </h3>
                             <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p><a href="">Learn more</a>
                         </div>
                     </li>
                     <li>
-                        <div class="featuring__img">
-                            <picture>
+                        <div class="features__item--img-wrapper">
+                            <img src="./images/Atlas_1x.jpg" alt="" width="200" >
+                            <!-- <picture>
                                 <source srcset="#" media="" type="image/webp">
                                 <source srcset="#" media="" >
                                 <source srcset="#" media="" type="image/webp">
@@ -185,9 +170,29 @@
                                 <source srcset="#" media="" type="image/webp">
                                 <source srcset="#" media="" >
                                 <img src="#" alt="" width="200" >
-                            </picture>
+                            </picture> -->
                         </div>
-                        <div class="featuring__img--description">
+                        <div class="features__item--description">
+                            <h3>Atlas launched Friendship             
+                            </h3>
+                            <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p><a href="">Learn more</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="features__item--img-wrapper">
+                            <img src="./images/Separate_1x.jpg" alt="" width="200" >
+                            <!-- <picture>
+                                <source srcset="#" media="" type="image/webp">
+                                <source srcset="#" media="" >
+                                <source srcset="#" media="" type="image/webp">
+                                <source srcset="#" media="" >
+                                <source srcset="#" media="" type="image/webp">
+                                <source srcset="#" media="" >
+                                <img src="#" alt="" width="200" >
+                            </picture> -->
+                        </div>
+                        <div class="features__item--description">
                             <h3>Separate spacecraft                        
                             </h3>
                             <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p><a href="">Learn more</a>
@@ -198,7 +203,7 @@
         </section>
         <section class="blog">
             <div class="container">
-                <div>
+                <div >
                     <h2>Don’t miss Rocket Science blog</h2>
                     <p>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
                     <button type="button" class="btn">All stories</button>
@@ -287,11 +292,13 @@
                 </div>
                 <div class="footer__form--wraper">
                     <p>Newsletter</p>
-                    <form class="form__content">
+                    <form class="footer__form--content">
                         <p>We send updates in every week</p>
-                        <input name="Email_Addres" class="form__content--field"
-                         type="email" placeholder="Email Addres">
-                        <button type="submit" class="btn">Go</button>
+                        <div class="footer__form--field-wrapper">
+                            <input name="Email_Addres" class="footer__form--content-field"
+                            type="email" placeholder="Email Addres">
+                            <button type="submit" class="btn">Go</button>
+                        </div>
                     </form>
                 </div>
             </div>    

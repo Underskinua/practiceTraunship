@@ -8,7 +8,7 @@
    }
 }
 
-.headline {    
+.section__title {    
         font-weight: 700;
         font-size: 64px;
         color: var(--headline-h2-color);      
@@ -16,7 +16,7 @@
         margin-bottom: 24px;    
 }
 
-.products__items--wrap {
+.products__items {
     display: flex;    
     flex-wrap: wrap;
     align-items: center;
