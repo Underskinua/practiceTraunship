@@ -115,7 +115,7 @@ img {
 }
 
 .hero {
-  background-image: url(../../images/hero.jpg);
+  background-image: url(./../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 920px;
@@ -214,7 +214,7 @@ img {
 }
 
 .testimonials {
-  background-image: url(../../images/testimonial.jpg);
+  background-image: url(./../images/testimonial.jpg);
   background-color: var(--bg-testimonial-color);
   background-repeat: no-repeat;
   background-position: left center;
