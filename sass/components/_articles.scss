@@ -30,6 +30,7 @@
 
 .articles__item--description {
     width: 310px;
+    position: relative;
     & h3 {
         font-weight: 700;
         font-size: 24px;
@@ -41,13 +42,27 @@
         font-size: 16px;
         line-height: 1.6;
         margin-bottom: 12px;
-    }
-
-    & a {
-        text-decoration: none;
-        font-size: 16px;
-        color: var(--active-color);
-    }
+    }    
 }
 
+.articles__item--link {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--active-color);       
+}
 
+.articles__item--link::after {
+    width: 0px; 
+    transition: width 0.15s;       
+}
+
+.articles__item--link:hover::after                                  ,
+.articles__item--link:focus::after  {
+    content: " ";
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background-color: var(--hover-color);
+  left: 0px;
+  bottom: -10px;   
+}
