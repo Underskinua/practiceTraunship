@@ -14,7 +14,7 @@
     }
 }
 
-.articles__items {
+.article-card {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 30px;
@@ -28,7 +28,7 @@
     } 
 }
 
-.articles__item--description {
+.article-card__content {
     width: 310px;
     position: relative;
     & h3 {

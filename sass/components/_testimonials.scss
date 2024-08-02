@@ -7,16 +7,16 @@
     
 }
 
-.testimonials__content {
+.testimonials__card {
     width: 445px;    
     padding-top: 132px;    
     padding-left: 665px;
     
-    & h2 {
+    & blockquote {
         font-weight: 700;
         font-size: 48px;
         color: var(--brown-color);
-        margin-bottom: 18px;
+        margin: 0 0 18px 0;           
     }
     & p {
         font-size: 24px;
@@ -25,7 +25,7 @@
     }
 }
 
-.testimonials__feedback {
+.testimonials__details {
     display: flex;    
     align-items: center;
     gap: 24px;    
