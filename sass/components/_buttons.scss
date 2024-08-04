@@ -30,10 +30,9 @@
     height: 80px;
     padding: 28px;
     border-radius: 50%;    
-
-    & svg {
-        text-align: center; 
-    }
+        & svg {
+            text-align: center; 
+        }
 }
 
 .menu__items a {
@@ -52,7 +51,7 @@
 }
 
 .menu__items a:hover {
-    color:var(--hover-color);
+    color: var(--hover-color);
 }
 
 .menu__items a:hover:after {

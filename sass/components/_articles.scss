@@ -1,36 +1,40 @@
 .articles {
-    padding: 110px 0 121px;
-    
-    & h2 {
-        margin-bottom: 35px;
-    }        
+    padding: 110px 0 121px; 
 }
 
-.articles {
-    h2 + p {  
-        width: 920px;      
-        font-size: 24px;
-        margin: 0 auto 90px;        
-    }
+.articles__title {    
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--bg-footer-color);
+    text-align: center;
+    margin-bottom: 35px;
 }
 
-.article-card {
+.articles__text {    
+    width: 920px;      
+    font-size: 24px;
+    margin: 0 auto 90px;       
+}
+
+.articles__list {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 30px;
     
     & li {
-        width: 540px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        width: 540px;          
         flex-basis: calc((100% - 30px) / 2);
     } 
 }
+.article-card {
+    display: flex;    
+    align-items: center;
 
-.article-card__content {
-    width: 310px;
-    position: relative;
+}
+.article-card__content {    
+    width: 310px;    
+    margin-left: 30px;
+    
     & h3 {
         font-weight: 700;
         font-size: 24px;
@@ -45,24 +49,29 @@
     }    
 }
 
-.articles__item--link {
+.article__card--link {
     text-decoration: none;
+    position: relative;
     font-size: 16px;
     color: var(--active-color);       
 }
 
-.articles__item--link::after {
-    width: 0px; 
-    transition: width 0.15s;       
+.article__card--link::after {
+    content: "";
+    position: absolute;
+    background-color: var(--hover-color);    
+    height: 3px;     
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;  
 }
 
-.articles__item--link:hover::after                                  ,
-.articles__item--link:focus::after  {
-    content: " ";
-  position: absolute;
-  width: 30%;
-  height: 2px;
-  background-color: var(--hover-color);
-  left: 0px;
-  bottom: -10px;   
+.article__card--link:hover::after,                                
+.article__card--link:focus::after  {
+    color: var(--hover-color);  
+}
+
+.article__card--link:hover:after {
+    width: 100%;
 }
