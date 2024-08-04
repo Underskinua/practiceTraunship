@@ -50,9 +50,9 @@ img {
   border-right: 1px solid red;
   border-left: 1px solid red;
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1205px) {
   .container {
-    width: 1140px;
+    width: 1205px;
   }
 }
 
@@ -303,7 +303,7 @@ img {
 .testimonials__card {
   width: 445px;
   padding-top: 132px;
-  padding-left: 665px;
+  padding-left: 710px;
 }
 .testimonials__card blockquote {
   font-weight: 700;
@@ -354,14 +354,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px 30px;
-}
-.articles__list li {
-  width: 540px;
-  -ms-flex-preferred-size: calc((100% - 30px) / 2);
-      flex-basis: calc((100% - 30px) / 2);
 }
 
 .article-card {
@@ -371,10 +369,12 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 540px;
+  -ms-flex-preferred-size: calc((100% - 30px) / 2);
+      flex-basis: calc((100% - 30px) / 2);
 }
 
 .article-card__content {
-  width: 310px;
   margin-left: 30px;
 }
 .article-card__content h3 {
@@ -389,14 +389,14 @@ img {
   margin-bottom: 12px;
 }
 
-.article__card--link {
+.article-card__link {
   text-decoration: none;
   position: relative;
   font-size: 16px;
   color: var(--active-color);
 }
 
-.article__card--link::after {
+.article-card__link::after {
   content: "";
   position: absolute;
   background-color: var(--hover-color);
@@ -408,17 +408,45 @@ img {
   transition: 0.3s;
 }
 
-.article__card--link:hover::after,
-.article__card--link:focus::after {
+.article-card__link:hover:after,
+.article-card__link:focus:after {
   color: var(--hover-color);
 }
 
-.article__card--link:hover:after {
+.article-card__link:hover:after {
   width: 100%;
 }
 
 .blog {
   padding: 100px 0 97px;
+}
+
+.blog__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.blog__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--headline-h3-color);
+  margin-bottom: 24px;
+}
+
+.blog__text {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--text-color);
+  margin-bottom: 42px;
+}
+
+.blog-article__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
 }
 
 .portfolio {

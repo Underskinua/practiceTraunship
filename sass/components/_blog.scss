@@ -1,3 +1,27 @@
 .blog {
-    padding:  100px 0 97px;
+    padding: 100px 0 97px;
+    
+}
+.blog__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+
+.blog__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--headline-h3-color);
+    margin-bottom: 24px;
+}
+
+.blog__text {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 42px;
+}
+.blog-article__list {
+    display: flex;
+    gap: 30px;
 }
