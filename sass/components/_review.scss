@@ -1,0 +1,30 @@
+.review {
+    padding: 113px 0 123px;   
+}
+
+.review__list {
+    display: flex;
+    gap: 30px;
+    color: var(--headline-h4-color);    
+}
+.review-card {
+    width: 350px;
+    text-align: center;
+}
+.review-card__image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+.review-card__text {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.review-card__title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.review-card__info {
+    font-size: 16px;
+}
