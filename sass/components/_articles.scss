@@ -69,6 +69,7 @@
     color: var(--hover-color);  
 }
 
-.article-card__link:hover:after {
+.article-card__link:hover:after,
+.article-card__link:focus:after {
     width: 100%;
 }
