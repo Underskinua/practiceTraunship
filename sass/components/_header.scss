@@ -12,9 +12,10 @@
 }
 
 .hero {
-    background-image: url(./../images/hero.jpg);
+    background-image: url(/images/hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center bottom;
     height: 920px;    
     position: relative;
 }
