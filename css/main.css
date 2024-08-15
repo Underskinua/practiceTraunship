@@ -153,7 +153,7 @@ img {
 }
 
 .hero {
-  background-image: url(/images/hero.svg);
+  background-image: url(./../images/hero.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -511,7 +511,15 @@ img {
 }
 
 .review {
-  padding: 113px 0 123px;
+  padding: 113px 0 0;
+  position: relative;
+}
+.review:after {
+  position: absolute;
+  display: inline-block;
+  background-color: #0fa968;
+  -webkit-clip-path: ellipse(180vh 90vh at 50% -80vh);
+          clip-path: ellipse(180vh 90vh at 50% -80vh);
 }
 
 .review__list {
@@ -528,9 +536,7 @@ img {
 }
 
 .review-card__image {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 24px;
+  margin: 0 auto 24px auto;
 }
 
 .review-card__text {
