@@ -2,7 +2,9 @@
     text-decoration: none;
     color: var(--white-color);
 }
-
+.logo {
+    margin-right: 224px;    
+}
 .header__wrap {
     display: flex;   
     align-items: center;    
@@ -10,7 +12,6 @@
     margin-top: 77px;   
     z-index: 9;    
 }
-
 .hero {
     background-image: url(./../images/hero/hero.svg);
     background-repeat: no-repeat;
@@ -47,13 +48,8 @@
 .menu__items {
     display: flex;
     gap: 50px;
-    font-size: 18px;        
+    font-size: 18px;       
 }
 
-.logo {
-    margin-right: 224px;
-    font-weight: 700;
-    font-size: 24px;
-    color: var(--white-color);
-}
+
 

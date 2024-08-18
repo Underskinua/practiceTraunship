@@ -29,8 +29,9 @@
 // }
 .review__list {
     display: flex;
-    gap: 30px;
-    color: var(--headline-h4-color);    
+    justify-content: space-between;
+    color: var(--headline-h4-color);   
+    gap: 30px; 
 }
 .review-card {
     width: 350px;

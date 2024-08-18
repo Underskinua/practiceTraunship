@@ -35,11 +35,17 @@
         }
 }
 
-.menu__items a {
+.menu__items a,
+.link-contact,
+.footer-nav__link  a {
     position: relative; 
+    color: var(--white-color);
+    transition: 0,3s ease;
 }
 
-.menu__items a:after {
+.menu__items a:after,
+.link-contact:after,
+.footer-nav__link a:after  {
     content: "";
     position: absolute;
     background-color: var(--hover-color);
@@ -50,11 +56,21 @@
     transition: 0.3s;
 }
 
-.menu__items a:hover {
+.menu__items a:hover,
+.menu__items a:focus,
+.link-contact:hover, 
+.link-contact:focus,
+.footer-nav__link a:hover,
+.footer-nav__link a:focus {
     color: var(--hover-color);
 }
 
-.menu__items a:hover:after {
+.menu__items a:hover:after,
+.menu__items a:focus:after, 
+.link-contact:hover:after, 
+.link-contact:focus:after,
+.footer-nav__link a:hover:after,
+.footer-nav__link a:focus:after {
     width: 100%;
 }
 
