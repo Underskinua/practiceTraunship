@@ -154,7 +154,7 @@ img {
 }
 
 .hero {
-  background-image: url(./../images/hero.svg);
+  background-image: url(./../images/hero/hero.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -271,31 +271,31 @@ img {
 }
 
 .icon-solid-fuel:before {
-  background-image: url("../images/icon-solid-fuel.svg");
+  background-image: url("../images/features/icon-solid-fuel.svg");
 }
 
 .icon-liquid-fuel:before {
-  background-image: url("../images/icon-liquid-fuel.svg");
+  background-image: url("../images/features/icon-liquid-fuel.svg");
 }
 
 .icon-ion-rocket:before {
-  background-image: url("../images/icon-ion-rocket.svg");
+  background-image: url("../images/features/icon-ion-rocket.svg");
 }
 
 .icon-plasma-rocket:before {
-  background-image: url("../images/icon-plasma-rocket.svg");
+  background-image: url("../images/features/icon-plasma-rocket.svg");
 }
 
 .icon-super-sonic-rocket:before {
-  background-image: url("../images/icon-super-sonic-rocket.svg");
+  background-image: url("../images/features/icon-super-sonic-rocket.svg");
 }
 
 .icon-ultra-rocket:before {
-  background-image: url("../images/icon-ultra-rocket.svg");
+  background-image: url("../images/features/icon-ultra-rocket.svg");
 }
 
 .testimonials {
-  background-image: url(./../images/testimonial.jpg);
+  background-image: url(./../images/testimonials/testimonial.jpg);
   background-color: var(--bg-testimonial-color);
   background-repeat: no-repeat;
   background-position: left center;
