@@ -1,0 +1,53 @@
+.review {
+    padding: 113px 0 123px; 
+    position: relative;
+    z-index: 3;    
+    border: 1px solid orange;
+    background-image: url(./../images/figure-ellips.png); /* Фоновой рисунок, если необходим */
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Положение рисунка */
+    background-size: cover; /* Масштабирование рисунка */
+    clip-path: ellipse(180vh 90vh at 50% 0); /* Или любое другое закругление, если необходимо */
+}
+// .review:after {
+//     content: '';
+//     display: inline-block;
+//     position: absolute;
+//     // background-color: #0fa968;
+//     top: 100%;
+//     left: 0;
+//     width: 100vw;
+//     height: 624px;  
+//     border: 1px solid orange;
+
+//     background-image: url(./../images/figure-ellips.png);
+//     background-repeat: no-repeat;
+//     background-position: center bottom;
+//     background-size: cover;   
+//     z-index: 2; 
+//     transform: translateY(-50%);
+// }
+.review__list {
+    display: flex;
+    gap: 30px;
+    color: var(--headline-h4-color);    
+}
+.review-card {
+    width: 350px;
+    text-align: center;
+}
+.review-card__image {
+    margin: 0 auto 24px auto;    
+}
+.review-card__text {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.review-card__title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.review-card__info {
+    font-size: 16px;
+}

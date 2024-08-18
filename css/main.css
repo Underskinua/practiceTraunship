@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
@@ -511,15 +512,16 @@ img {
 }
 
 .review {
-  padding: 113px 0 0;
+  padding: 113px 0 123px;
   position: relative;
-}
-.review:after {
-  position: absolute;
-  display: inline-block;
-  background-color: #0fa968;
-  -webkit-clip-path: ellipse(180vh 90vh at 50% -80vh);
-          clip-path: ellipse(180vh 90vh at 50% -80vh);
+  z-index: 3;
+  border: 1px solid orange;
+  background-image: url(./../images/figure-ellips.png); /* Фоновой рисунок, если необходим */
+  background-repeat: no-repeat;
+  background-position: center bottom; /* Положение рисунка */
+  background-size: cover; /* Масштабирование рисунка */
+  -webkit-clip-path: ellipse(180vh 90vh at 50% 0);
+          clip-path: ellipse(180vh 90vh at 50% 0); /* Или любое другое закругление, если необходимо */
 }
 
 .review__list {
@@ -557,6 +559,8 @@ img {
 .footer {
   padding: 110px 0 108px;
   background-color: var(--bg-footer-color);
+  position: relative;
+  z-index: 1;
 }
 .footer a {
   text-decoration: none;
