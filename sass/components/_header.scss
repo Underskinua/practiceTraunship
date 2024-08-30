@@ -8,9 +8,10 @@
 .header__wrap {
     display: flex;   
     align-items: center;    
+    justify-content: space-between;
     position: absolute;
-    margin-top: 77px;   
-    z-index: 9;    
+    margin: 77px auto;   
+    z-index: 9;     
 }
 .hero {
     background-image: url(./../images/hero/hero.svg);

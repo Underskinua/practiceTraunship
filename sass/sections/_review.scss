@@ -1,32 +1,29 @@
 .review {
     padding: 113px 0 123px; 
     position: relative;
-    z-index: 3;    
-    border: 1px solid orange;
-    background-image: url(./../images/figure-ellips.png); /* Фоновой рисунок, если необходим */
-    background-repeat: no-repeat;
-    background-position: center bottom; /* Положение рисунка */
-    background-size: cover; /* Масштабирование рисунка */
-    clip-path: ellipse(180vh 90vh at 50% 0); /* Или любое другое закругление, если необходимо */
+    z-index: 2;    
+    border: 1px solid orange;  
+    // clip-path: ellipse(75% 20% at 50% 100%); 
 }
-// .review:after {
-//     content: '';
-//     display: inline-block;
-//     position: absolute;
-//     // background-color: #0fa968;
-//     top: 100%;
-//     left: 0;
-//     width: 100vw;
-//     height: 624px;  
-//     border: 1px solid orange;
 
-//     background-image: url(./../images/figure-ellips.png);
-//     background-repeat: no-repeat;
-//     background-position: center bottom;
-//     background-size: cover;   
-//     z-index: 2; 
-//     transform: translateY(-50%);
-// }
+.curve {
+    position: absolute;
+  bottom: -2718px; /* Это значение зависит от вашего дизайна */
+  transform: scaleX(1.5);
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  border: 1px solid #ff000f;
+  transform: scaleX(1.2); /* Уберите масштабирование, если оно не нужно */
+    border: 1px solid #ff000f;
+    pointer-events: none;
+}
+
+
+
+
+
 .review__list {
     display: flex;
     justify-content: space-between;

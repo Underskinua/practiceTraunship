@@ -169,8 +169,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: absolute;
-  margin-top: 77px;
+  margin: 77px auto;
   z-index: 9;
 }
 
@@ -528,14 +531,24 @@ img {
 .review {
   padding: 113px 0 123px;
   position: relative;
-  z-index: 3;
+  z-index: 2;
   border: 1px solid orange;
-  background-image: url(./../images/figure-ellips.png); /* Фоновой рисунок, если необходим */
-  background-repeat: no-repeat;
-  background-position: center bottom; /* Положение рисунка */
-  background-size: cover; /* Масштабирование рисунка */
-  -webkit-clip-path: ellipse(180vh 90vh at 50% 0);
-          clip-path: ellipse(180vh 90vh at 50% 0); /* Или любое другое закругление, если необходимо */
+}
+
+.curve {
+  position: absolute;
+  bottom: -2718px; /* Это значение зависит от вашего дизайна */
+  -webkit-transform: scaleX(1.5);
+          transform: scaleX(1.5);
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  border: 1px solid #ff000f;
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2); /* Уберите масштабирование, если оно не нужно */
+  border: 1px solid #ff000f;
+  pointer-events: none;
 }
 
 .review__list {
@@ -576,6 +589,7 @@ img {
 .footer {
   padding: 110px 0 108px;
   background-color: var(--bg-footer-color);
+  z-index: 0;
 }
 
 .footer__wrapper {
@@ -692,12 +706,14 @@ img {
   transition: stroke 0.2s ease, transform 0.2s ease;
   transition: stroke 0.2s ease, transform 0.2s ease, -webkit-transform 0.2s ease;
   outline: none;
+  fill: var(--white-color);
   stroke: var(--white-color);
 }
 
 .footer__social--link svg:hover,
 .footer__social--link svg:focus {
+  fill: var(--white-color);
   stroke: var(--hover-color);
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -webkit-transform: translateY(-5px) scale(2);
+          transform: translateY(-5px) scale(2);
 }/*# sourceMappingURL=main.css.map */
