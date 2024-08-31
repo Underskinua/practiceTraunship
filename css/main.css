@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
@@ -529,26 +528,15 @@ img {
 }
 
 .review {
-  padding: 113px 0 123px;
-  position: relative;
-  z-index: 2;
+  padding: 113px 0 221px;
   border: 1px solid orange;
-}
-
-.curve {
+  background-image: url(./../images/Bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
   position: absolute;
-  bottom: -2718px; /* Это значение зависит от вашего дизайна */
-  -webkit-transform: scaleX(1.5);
-          transform: scaleX(1.5);
-  left: 0;
-  width: 100%;
-  height: auto;
   z-index: 1;
-  border: 1px solid #ff000f;
-  -webkit-transform: scaleX(1.2);
-          transform: scaleX(1.2); /* Уберите масштабирование, если оно не нужно */
-  border: 1px solid #ff000f;
-  pointer-events: none;
+  width: 100%;
 }
 
 .review__list {
@@ -587,7 +575,7 @@ img {
 }
 
 .footer {
-  padding: 110px 0 108px;
+  padding: 700px 0 108px;
   background-color: var(--bg-footer-color);
   z-index: 0;
 }

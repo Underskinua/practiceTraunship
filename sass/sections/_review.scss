@@ -1,26 +1,14 @@
 .review {
-    padding: 113px 0 123px; 
-    position: relative;
-    z-index: 2;    
-    border: 1px solid orange;  
-    // clip-path: ellipse(75% 20% at 50% 100%); 
-}
-
-.curve {
+    padding: 113px 0 221px; 
+    border: 1px solid orange;    
+    background-image: url(./../images/Bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
     position: absolute;
-  bottom: -2718px; /* Это значение зависит от вашего дизайна */
-  transform: scaleX(1.5);
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: 1;
-  border: 1px solid #ff000f;
-  transform: scaleX(1.2); /* Уберите масштабирование, если оно не нужно */
-    border: 1px solid #ff000f;
-    pointer-events: none;
+    z-index: 1; 
+    width: 100%;
 }
-
-
 
 
 
