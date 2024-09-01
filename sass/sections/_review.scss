@@ -1,7 +1,6 @@
 .review {
     padding: 113px 0 221px; 
-    border: 1px solid orange;    
-    background-image: url(./../images/Bg.svg);
+    background-image: url(./../images/review/bg-ellips.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -9,9 +8,6 @@
     z-index: 1; 
     width: 100%;
 }
-
-
-
 .review__list {
     display: flex;
     justify-content: space-between;

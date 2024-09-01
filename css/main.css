@@ -47,8 +47,6 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  border-right: 1px solid red;
-  border-left: 1px solid red;
 }
 @media screen and (min-width: 1205px) {
   .container {
@@ -79,16 +77,18 @@ img {
   padding: 18px 32px;
   border-radius: 40px;
   border: none;
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
 .btn:focus {
-  -webkit-box-shadow: 3px 17px 15px -2px rgb(66, 68, 90);
-          box-shadow: 3px 17px 15px -2px rgb(66, 68, 90);
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
+          box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
+  -webkit-transform: translateY(-5px) scale(2);
+          transform: translateY(-5px) scale(2);
 }
 
 .header__btn {
@@ -529,8 +529,7 @@ img {
 
 .review {
   padding: 113px 0 221px;
-  border: 1px solid orange;
-  background-image: url(./../images/Bg.svg);
+  background-image: url(./../images/review/bg-ellips.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -702,6 +701,8 @@ img {
 .footer__social--link svg:focus {
   fill: var(--white-color);
   stroke: var(--hover-color);
+  -webkit-box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
+          box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
   -webkit-transform: translateY(-5px) scale(2);
           transform: translateY(-5px) scale(2);
 }/*# sourceMappingURL=main.css.map */
