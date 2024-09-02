@@ -51,7 +51,7 @@
 .features__card {
     position: relative;
 }
-.features__card h3:before {
+.features__card:before {
     content: "";
     display: inline-block;
     position: absolute;
