@@ -2,9 +2,11 @@
     text-decoration: none;
     color: var(--white-color);
 }
+
 .logo {
     margin-right: 224px;    
 }
+
 .header__wrap {
     display: flex;   
     align-items: center;    
@@ -13,6 +15,7 @@
     margin: 77px auto;   
     z-index: 9;     
 }
+
 .hero {
     background-image: url(./../images/hero/hero.svg);
     background-repeat: no-repeat;

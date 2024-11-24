@@ -28,7 +28,7 @@ img {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: green;
 }
 
 .visually-hidden {
@@ -542,10 +542,6 @@ a {
   background-color: var(--bg-footer-color);
   z-index: 0;
 }
-.footer a {
-  text-decoration: none;
-  color: greenyellow;
-}
 
 .footer__wrapper {
   display: flex;
@@ -571,6 +567,8 @@ a {
 
 .link-contact {
   font-weight: 400;
+  text-decoration: none;
+  color: red;
 }
 
 .footer__nav {

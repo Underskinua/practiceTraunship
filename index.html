@@ -1,293 +1,461 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <title>Traunship webpage for practice</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper-body">
-        <header class="header">
-            <div class="container">
-                <div class="header__wrap">
-                    <a href="#" class="logo"><img src="./images/header/traunship-logo.svg"  width="110" height="33" alt="logo-Traunship" loading="lazy"></a>
-                    <nav class="menu">                
-                        <ul class="menu__items">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Testimonial</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>                
-                    </nav>
-                    <button type="button" class="btn header__btn">Try a demo</button>
-                </div>
+      <header class="header">
+        <div class="container">
+          <div class="header__wrap">
+            <a href="#" class="logo"
+              ><img
+                src="./images/header/traunship-logo.svg"
+                width="110"
+                height="33"
+                alt="logo-Traunship"
+                loading="lazy"/>
+            </a>
+            <nav class="menu">
+              <ul class="menu__items">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+            <button type="button" class="btn header__btn">Try a demo</button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="hero__wrap">
+              <button type="button" class="btn play">
+                <svg width="16" height="20">
+                  <use href="./images/sprite.svg#icon-play"></use>
+                </svg>
+              </button>
+              <h1>Best place to buy rocket</h1>
+              <p>
+                Quis ipsum pellentesque nulla nulla elementum sagittis dictum
+              </p>
+
+              <button type="button" class="btn">Try a demo</button>
+              <button type="button" class="btn btn--transparent">
+                Buy now
+              </button>
             </div>
-        </header>
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero__wrap">
-                        <button type="button" class="btn play">
-                        <svg width="16" height="20"><use href="./images/sprite.svg#icon-play"></use></svg>
-                        </button>
-                        <h1>Best place to buy rocket</h1>
-                        <p>Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
-                        
-                        <button type="button" class="btn">Try a demo</button>
-                        <button type="button" class="btn btn--transparent">Buy now</button>                    
-                        
-                    </div>
-                </div>
-            </section>
-            <section class="features">
-                <div class="container">
-                    <h2 class="features__title">Features you can’s avoid</h2>
-                    <p class="features__description">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-                    <ul class="features__items">
-                        <li>
-                            <article class="features__card icon-solid-fuel">
-                                <h3>Solid Fuel</h3>
-                                <p>Eget mattis viverra in lorem dictum 
-                                    consequat etiam non pellentesque
-                                    mauris diamprice ore</p>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="features__card icon-liquid-fuel">
-                                <h3>Liquid Fuel</h3>
-                                <p>Eget mattis viverra in lorem dictum 
-                                consequat etiam non pellentesque
-                                mauris diamprice ore</p>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="features__card icon-ion-rocket">                                       
-                                <h3>Ion Rocket</h3>
-                                <p>Eget mattis viverra in lorem dictum 
-                                consequat etiam non pellentesque
-                                mauris diamprice ore</p>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="features__card icon-plasma-rocket">                                    
-                                <h3>Plasma Rocket</h3>
-                                <p>Eget mattis viverra in lorem dictum 
-                                consequat etiam non pellentesque
-                                mauris diamprice ore</p>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="features__card icon-super-sonic-rocket">                              
-                                <h3>Supersonic Rocket</h3>
-                                <p>Eget mattis viverra in lorem dictum 
-                                consequat etiam non pellentesque
-                                mauris diamprice ore</p>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="features__card icon-ultra-rocket">                                
-                                <h3>Ultra Rocket</h3>
-                                <p>Eget mattis viverra in lorem dictum 
-                                consequat etiam non pellentesque
-                                mauris diamprice ore</p>
-                            </article>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="testimonials">
-                <div class="container">                    
-                    <figure class="testimonial__card">                        
-                        <blockquote>"Right time to invest into space"</blockquote>
-                        <p>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-                        <figcaption class="testimonial__details">
-                            <img src="./images/testimonials/milon-ask.png" width="64" height="64" alt="Milon Ask" loading="lazy">                            
-                            <p>Milon Ask<br>CEO, Blackhole</p>
-                
-                        </figcaption>
-                    </figure>
-                </div>
-            </section>
-            <section class="articles">
-                <div class="container">
-                    <h2 class="articles__title">Affordable, good quality.</h2>
-                    <p class="articles__text">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-                    <ul class="articles__list">
-                        <li>
-                            <article class="article-card">
-                                <img class="article-card__image" src="./images/articles/milon-1.jpg" width="200" height="200" alt="Million pounds of thrust" loading="lazy">                          
-                                <div class="article-card__content">
-                                    <h3>Million pounds of thrust                            
-                                    </h3>
-                                    <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-                                    <a href="#" class="article-card__link">Learn more</a>
-                                </div>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="article-card">
-                                <img src="./images/articles/more-then-1x.jpg" width="200" height="200" alt="More than 1,300 missions" loading="lazy">                                
-                                <div class="article-card__content">
-                                    <h3>More than 1,300 missions                          
-                                    </h3>
-                                    <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-                                    <a href="#" class="article-card__link">Learn more</a>
-                                </div>
-                            </article>
-                        </li>
-                        <li>
-                             <article class="article-card">       
-                                <img src="./images/articles/atlas-1x.jpg" width="200" height="200" alt="Atlas launched Friendship" loading="lazy">                                
-                                <div class="article-card__content">
-                                    <h3>Atlas launched Friendship             
-                                    </h3>
-                                    <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-                                    <a href="" class="article-card__link">Learn more</a>
-                                </div>
-                            </article>
-                        </li>
-                        
-                        <li>
-                             <article class="article-card">
-                                <img src="./images/articles/separate-1x.jpg" width="200" height="200" alt="Separate spacecraft" loading="lazy">                                
-                                <div class="article-card__content">
-                                    <h3>Separate spacecraft                        
-                                    </h3>
-                                    <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p><a href="" class="article-card__link">Learn more</a>
-                                </div>
-                            </article>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="blog">
-                <div class="container">
-                    <div class="blog__wrapper">
-                        <div class="blog__head">
-                            <h2 class="blog__title">Don’t miss Rocket Science blog</h2>
-                            <p class="blog__text">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-                            <button type="button" class="btn">All stories</button>
-                        </div>
-                        <ul class="blog__list">
-                            <li>
-                                <article class="blog-card shadow">
-                                    <img src="./images/blog/rocket-lab.jpg" width="350" height="250" alt="Rocket lab boots its space system" loading="lazy">
-                                    <div class="blog-card__content">
-                                        <h3 class="blog-card__title">“Rocket lab boots its space system”</h3>
-                                        <p class="blog-card__text">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
-                                        <a href="" class="blog-card__link">Read story</a>
-                                    </div>
-                                </article>
-                            </li>
-                            <li> 
-                                <article class="blog-card">                        
-                                    <img src="./images/blog/nasa-rocket.jpg" width="350" height="250" alt="NASA’s big rocket misses deadline" loading="lazy">
-                                    <div class="blog-card__content">
-                                        <h3 class="blog-card__title">“NASA’s big rocket misses deadline”</h3>
-                                        <p class="blog-card__text">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
-                                        <a href="" class="blog-card__link">Read story</a>
-                                    </div>
-                                </article>   
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="review">
-                <div class="container">
-                    <h2 class="visually-hidden">Review</h2>
-                    <ul class="review__list">
-                        <li>
-                            <article class="review-card">
-                                <img class="review-card__image" src="./images/review/wade-warren.png" width="90" height="90" alt="Wade Warren, Astronaut" loading="lazy">
-                                <p class="review-card__text">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.</p>
-                                <h3 class="review-card__title">Wade Warren</h3>
-                                <span class="review-card__info">Astronaut</span>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="review-card">
-                                <img class="review-card__image" src="./images/review/esther-howard.png" width="90" height="90" alt="Esther Howard, Appolo 11 Pilot" loading="lazy">
-                                <p class="review-card__text">They delivered my custom rocket as fast as the rocket itself. Mindblowing.</p>
-                                <h3 class="review-card__title">Esther Howard</h3>
-                                <span class="review-card__info">Appolo 11 Pilot</span>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="review-card">
-                                <img class="review-card__image" src="./images/review/cameron-williamson.png" width="90" height="90" alt="Cameron Williamson, NASA Manager" loading="lazy">
-                                <p class="review-card__text">I found awesome customer service from them. They fixed my rocket within a day.</p>
-                                <h3 class="review-card__title">Cameron Williamson</h3>
-                                <span class="review-card__info">NASA Manager</span>
-                            </article>
-                        </li>
-                    </ul>
-                </div>                  
-            </section>
-                                  
-        </main>
-            <footer class="footer">
-                <div class="container">
-                    <div class="footer__wrapper">
-                        <div class="footer__address">
-                            <a href="#"><img src="./images/footer/traunship-logo-footer.svg" width="165" height="40" alt="logo-Traunship" loading="lazy"></a>
-                            <address class="footer__address">
-                                <ul>
-                                <li><p>4517 Washington Ave. Manchester,<br>
-                                    Kentucky 39495</p></li>
-                                
-                                    <li><a href="tel:6845550102" class="link-contact">(684) 555-0102</a></li>
-                                    <li><a href="tel:0635550123" class="link-contact">(603) 555-0123</a></li>
-                                </ul>
-                            </address>
-                        </div>
-                        <div class="footer__nav">
-                            <p>Quick Links</p>
-                            <ul class="footer-nav__link">
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Testimonial</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
+          </div>
+        </section>
+        <section class="features">
+          <div class="container">
+            <h2 class="features__title">Features you can’s avoid</h2>
+            <p class="features__description">
+              Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam
+              enim faucibus pellentesque mi massa. Nmet nullam sed habitasse
+              dignissim viverra congue nisl
+            </p>
+            <ul class="features__items">
+              <li>
+                <article class="features__card icon-solid-fuel">
+                  <h3>Solid Fuel</h3>
+                  <p>
+                    Eget mattis viverra in lorem dictum consequat etiam non
+                    pellentesque mauris diamprice ore
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="features__card icon-liquid-fuel">
+                  <h3>Liquid Fuel</h3>
+                  <p>
+                    Eget mattis viverra in lorem dictum consequat etiam non
+                    pellentesque mauris diamprice ore
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="features__card icon-ion-rocket">
+                  <h3>Ion Rocket</h3>
+                  <p>
+                    Eget mattis viverra in lorem dictum consequat etiam non
+                    pellentesque mauris diamprice ore
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="features__card icon-plasma-rocket">
+                  <h3>Plasma Rocket</h3>
+                  <p>
+                    Eget mattis viverra in lorem dictum consequat etiam non
+                    pellentesque mauris diamprice ore
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="features__card icon-super-sonic-rocket">
+                  <h3>Supersonic Rocket</h3>
+                  <p>
+                    Eget mattis viverra in lorem dictum consequat etiam non
+                    pellentesque mauris diamprice ore
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="features__card icon-ultra-rocket">
+                  <h3>Ultra Rocket</h3>
+                  <p>
+                    Eget mattis viverra in lorem dictum consequat etiam non
+                    pellentesque mauris diamprice ore
+                  </p>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="testimonials">
+          <div class="container">
+            <figure class="testimonial__card">
+              <blockquote>"Right time to invest into space"</blockquote>
+              <p>
+                Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus
+                purus eu, mauris pretium mollis ac id mauris eget.
+              </p>
+              <figcaption class="testimonial__details">
+                <img
+                  src="./images/testimonials/milon-ask.png"
+                  width="64"
+                  height="64"
+                  alt="Milon Ask"
+                  loading="lazy"
+                />
+                <p>Milon Ask<br />CEO, Blackhole</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="articles">
+          <div class="container">
+            <h2 class="articles__title">Affordable, good quality.</h2>
+            <p class="articles__text">
+              Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam
+              enim faucibus pellentesque mi massa. Nmet nullam sed habitasse
+              dignissim viverra congue nisl
+            </p>
+            <ul class="articles__list">
+              <li>
+                <article class="article-card">
+                  <img
+                    class="article-card__image"
+                    src="./images/articles/milon-1.jpg"
+                    width="200"
+                    height="200"
+                    alt="Million pounds of thrust"
+                    loading="lazy"
+                  />
+                  <div class="article-card__content">
+                    <h3>Million pounds of thrust</h3>
+                    <p>
+                      Eget mattis viverra in lorem dictum consequat etiam non
+                      pellentesque mauris diamprice ore
+                    </p>
+                    <a href="#" class="article-card__link">Learn more</a>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="article-card">
+                  <img
+                    src="./images/articles/more-then-1x.jpg"
+                    width="200"
+                    height="200"
+                    alt="More than 1,300 missions"
+                    loading="lazy"
+                  />
+                  <div class="article-card__content">
+                    <h3>More than 1,300 missions</h3>
+                    <p>
+                      Eget mattis viverra in lorem dictum consequat etiam non
+                      pellentesque mauris diamprice ore
+                    </p>
+                    <a href="#" class="article-card__link">Learn more</a>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="article-card">
+                  <img
+                    src="./images/articles/atlas-1x.jpg"
+                    width="200"
+                    height="200"
+                    alt="Atlas launched Friendship"
+                    loading="lazy"
+                  />
+                  <div class="article-card__content">
+                    <h3>Atlas launched Friendship</h3>
+                    <p>
+                      Eget mattis viverra in lorem dictum consequat etiam non
+                      pellentesque mauris diamprice ore
+                    </p>
+                    <a href="" class="article-card__link">Learn more</a>
+                  </div>
+                </article>
+              </li>
 
-                        <div class="footer__subscriber">
-                            <p>Newsletter</p>
-                            <div class="subscriber-form">
-                                <form class="subscriber-form__title">
-                                    <p>We send updates in every week</p>
-                                    <div class="subscriber-form__content">
-                                        <input name="Email_Addres" class="subscriber-form__field"
-                                        type="email" placeholder="Email Addres"
-                                        required>
-                                        <button type="submit" class="btn">Go</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>    
-                    </div> 
-
-                    <div class="footer__bottom">
-                        <p>© 2021 Traunship. All right reserved.</p>
-                        <ul class="social__list">                        
-                            <li><a href="#" target="_blank">
-                                <span class="visually-hidden">open our social net facebook</span><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-facebook"></use></svg></a></li>
-                            
-                            <li><a href="#" target="_blank">
-                                <span class="visually-hidden">open our social net twitter</span><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-twitter"></use></svg></a></li>
-                            
-                            <li><a href="#" target="_blank">
-                                <span class="visually-hidden">open our social net instagram</span><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-instagram"></use></svg></a></li>
-                            
-                            <li><a href="#" target="_blank">
-                                <span class="visually-hidden">open our social net linkedin</span><svg width="12.01" height="12"><use href="./images/sprite.svg#icon-linkedin"></use></svg></a></li>
-                        </ul>
+              <li>
+                <article class="article-card">
+                  <img
+                    src="./images/articles/separate-1x.jpg"
+                    width="200"
+                    height="200"
+                    alt="Separate spacecraft"
+                    loading="lazy"
+                  />
+                  <div class="article-card__content">
+                    <h3>Separate spacecraft</h3>
+                    <p>
+                      Eget mattis viverra in lorem dictum consequat etiam non
+                      pellentesque mauris diamprice ore
+                    </p>
+                    <a href="" class="article-card__link">Learn more</a>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="blog">
+          <div class="container">
+            <div class="blog__wrapper">
+              <div class="blog__head">
+                <h2 class="blog__title">Don’t miss Rocket Science blog</h2>
+                <p class="blog__text">
+                  Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus
+                  purus eu, mauris pretium mollis ac id mauris eget.
+                </p>
+                <button type="button" class="btn">All stories</button>
+              </div>
+              <ul class="blog__list">
+                <li>
+                  <article class="blog-card shadow">
+                    <img
+                      src="./images/blog/rocket-lab.jpg"
+                      width="350"
+                      height="250"
+                      alt="Rocket lab boots its space system"
+                      loading="lazy"
+                    />
+                    <div class="blog-card__content">
+                      <h3 class="blog-card__title">
+                        “Rocket lab boots its space system”
+                      </h3>
+                      <p class="blog-card__text">
+                        Nmet nullam sed habitasse dignissim viverra congue nisl.
+                        Lacus purus eu.
+                      </p>
+                      <a href="" class="blog-card__link">Read story</a>
                     </div>
-                </div>
-            </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="blog-card">
+                    <img
+                      src="./images/blog/nasa-rocket.jpg"
+                      width="350"
+                      height="250"
+                      alt="NASA’s big rocket misses deadline"
+                      loading="lazy"
+                    />
+                    <div class="blog-card__content">
+                      <h3 class="blog-card__title">
+                        “NASA’s big rocket misses deadline”
+                      </h3>
+                      <p class="blog-card__text">
+                        Nmet nullam sed habitasse dignissim viverra congue nisl.
+                        Lacus purus eu.
+                      </p>
+                      <a href="" class="blog-card__link">Read story</a>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="review">
+          <div class="container">
+            <h2 class="visually-hidden">Review</h2>
+            <ul class="review__list">
+              <li>
+                <article class="review-card">
+                  <img
+                    class="review-card__image"
+                    src="./images/review/wade-warren.png"
+                    width="90"
+                    height="90"
+                    alt="Wade Warren, Astronaut"
+                    loading="lazy"
+                  />
+                  <p class="review-card__text">
+                    I brought a rocket for my son in his 14th birthday. I liked
+                    their service. Love it.
+                  </p>
+                  <h3 class="review-card__title">Wade Warren</h3>
+                  <span class="review-card__info">Astronaut</span>
+                </article>
+              </li>
+              <li>
+                <article class="review-card">
+                  <img
+                    class="review-card__image"
+                    src="./images/review/esther-howard.png"
+                    width="90"
+                    height="90"
+                    alt="Esther Howard, Appolo 11 Pilot"
+                    loading="lazy"
+                  />
+                  <p class="review-card__text">
+                    They delivered my custom rocket as fast as the rocket
+                    itself. Mindblowing.
+                  </p>
+                  <h3 class="review-card__title">Esther Howard</h3>
+                  <span class="review-card__info">Appolo 11 Pilot</span>
+                </article>
+              </li>
+              <li>
+                <article class="review-card">
+                  <img
+                    class="review-card__image"
+                    src="./images/review/cameron-williamson.png"
+                    width="90"
+                    height="90"
+                    alt="Cameron Williamson, NASA Manager"
+                    loading="lazy"
+                  />
+                  <p class="review-card__text">
+                    I found awesome customer service from them. They fixed my
+                    rocket within a day.
+                  </p>
+                  <h3 class="review-card__title">Cameron Williamson</h3>
+                  <span class="review-card__info">NASA Manager</span>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__address">
+              <a href="#"
+                ><img
+                  src="./images/footer/traunship-logo-footer.svg"
+                  width="165"
+                  height="40"
+                  alt="logo-Traunship"
+                  loading="lazy"
+              /></a>
+              <address class="footer__address">
+                <ul>
+                  <li>
+                    <p>
+                      4517 Washington Ave. Manchester,<br />
+                      Kentucky 39495
+                    </p>
+                  </li>
+
+                  <li>
+                    <a href="tel:6845550102" class="link-contact"
+                      >(684) 555-0102</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:0635550123" class="link-contact"
+                      >(603) 555-0123</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="footer__nav">
+              <p>Quick Links</p>
+              <ul class="footer-nav__link">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__subscriber">
+              <p>Newsletter</p>
+              <div class="subscriber-form">
+                <form class="subscriber-form__title">
+                  <p>We send updates in every week</p>
+                  <div class="subscriber-form__content">
+                    <input
+                      name="Email_Addres"
+                      class="subscriber-form__field"
+                      type="email"
+                      placeholder="Email Addres"
+                      required
+                    />
+                    <button type="submit" class="btn">Go</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <p>© 2021 Traunship. All right reserved.</p>
+            <ul class="social__list">
+              <li>
+                <a href="#" target="_blank">
+                  <span class="visually-hidden">open our social net facebook</span>
+                        <svg width="12.01" height="12">
+                            <use href="./images/sprite.svg#icon-facebook"></use>
+                        </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <span class="visually-hidden">open our social net twitter</span>
+                        <svg width="12.01" height="12">
+                            <use href="./images/sprite.svg#icon-twitter"></use>
+                        </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <span class="visually-hidden">open our social net instagram</span>
+                    <svg width="12.01" height="12">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <span class="visually-hidden">open our social net linkedin</span>
+                    <svg width="12.01" height="12">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

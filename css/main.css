@@ -19,15 +19,16 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 img {
   display: block;
 }
 
-.link {
+a {
   text-decoration: none;
+  color: green;
 }
 
 .visually-hidden {
