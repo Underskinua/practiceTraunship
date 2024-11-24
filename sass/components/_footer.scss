@@ -2,6 +2,11 @@
     padding: 700px 0 108px;
     background-color: var(--bg-footer-color); 
     z-index: 0;  
+
+    & a {
+        text-decoration: none;
+        color: greenyellow;
+    }
 }
 
 .footer__wrapper {
@@ -26,8 +31,10 @@
         }
 }
 .link-contact {
-    font-weight: 400;       
+    font-weight: 400;  
+          
 }
+
 .footer__nav {
     font-weight: 700;
         & p {            
