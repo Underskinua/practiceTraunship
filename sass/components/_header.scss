@@ -1,5 +1,4 @@
 .header a {
-    text-decoration: none;
     color: var(--white-color);
 }
 
@@ -16,34 +15,6 @@
     z-index: 9;     
 }
 
-.hero {
-    background-image: url(./../images/hero/hero.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    height: 920px;    
-    position: relative;
-}
-
-.hero__wrap {
-    padding-top: 279px;
-    text-align: center;
-     & button:nth-child(1) {
-        margin-bottom: 40px;
-     }
-     & h1 {
-        font-weight: 700;
-        font-size: 72px;
-        color: var(--white-color);        
-        text-shadow: 4px 2px 4px 0 rgba(0, 0, 0, 0.25);
-        margin-bottom: 8px;
-     }
-     & p {
-        font-size: 24px;
-        color: var(--white-color);
-        margin-bottom: 40px;
-     }
-}
 
 .menu {
     margin-right: 176px;
