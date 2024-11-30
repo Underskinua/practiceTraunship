@@ -198,7 +198,7 @@ a {
 }
 
 .hero {
-  background-image: url(./../../images/hero/hero.webp);
+  background-image: url(./../images/hero/hero.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -417,7 +417,6 @@ a {
 }
 
 .article-card__link {
-  text-decoration: none;
   position: relative;
   font-size: 16px;
   color: var(--active-color);
@@ -507,7 +506,6 @@ a {
 }
 
 .blog-card__link {
-  text-decoration: none;
   position: relative;
   font-weight: 400;
   font-size: 20px;
