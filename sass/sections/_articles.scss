@@ -7,13 +7,12 @@
     margin-bottom: 35px;
 }
 
-.articles__text {    
-    width: 920px;      
-    font-size: 24px;
+.articles__description {  
+    
     margin: 0 auto 90px;       
 }
 
-.articles__list {
+.articles__items {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -30,14 +29,14 @@
 .article-card__content {    
     margin-left: 30px;    
         
-        & h3 + p {
+        & p {
             font-size: 16px;
             line-height: 1.6;
             margin-bottom: 12px;
         }    
 }
 
-.artical-card__content-title {            
+.artical-card__title {            
     color: var(--headline-h4-color);
     margin-bottom: 12px;
 }
