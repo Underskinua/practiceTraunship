@@ -38,7 +38,7 @@
         }
 }
 
-.menu__items a,
+.menu__links a,
 .link-contact,
 .footer-nav__link  a {
     position: relative; 
@@ -46,7 +46,7 @@
     transition: 0,3s ease;
 }
 
-.menu__items a:after,
+.menu__links a:after,
 .link-contact:after,
 .footer-nav__link a:after  {
     content: "";
@@ -59,8 +59,8 @@
     transition: 0.3s;
 }
 
-.menu__items a:hover,
-.menu__items a:focus,
+.menu__links a:hover,
+.menu__links a:focus,
 .link-contact:hover, 
 .link-contact:focus,
 .footer-nav__link a:hover,
@@ -68,8 +68,8 @@
     color: var(--hover-color);
 }
 
-.menu__items a:hover:after,
-.menu__items a:focus:after, 
+.menu__links a:hover:after,
+.menu__links a:focus:after, 
 .link-contact:hover:after, 
 .link-contact:focus:after,
 .footer-nav__link a:hover:after,
