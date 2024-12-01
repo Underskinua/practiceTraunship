@@ -203,7 +203,7 @@ a {
 .menu {
   margin-right: 176px;
 }
-.menu__items {
+.menu__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,7 +230,7 @@ a {
   text-shadow: 4px 2px 4px 0 rgba(0, 0, 0, 0.25);
   margin-bottom: 8px;
 }
-.hero__text {
+.hero__description {
   font-size: 24px;
   color: var(--white-color);
   margin-bottom: 40px;
@@ -435,7 +435,7 @@ a {
   color: var(--headline-h3-color);
   margin-bottom: 24px;
 }
-.blog__text {
+.blog__description {
   font-weight: 400;
   font-size: 24px;
   color: var(--text-color);
@@ -503,7 +503,6 @@ a {
   z-index: 1;
   width: 100%;
 }
-
 .review__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -519,22 +518,18 @@ a {
   width: 350px;
   text-align: center;
 }
-
 .review-card__image {
   margin: 0 auto 24px auto;
 }
-
 .review-card__text {
   font-size: 24px;
   margin-bottom: 24px;
 }
-
-.review-card__title {
+.review-card--title {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 4px;
 }
-
 .review-card__info {
   font-size: 16px;
 }
@@ -544,7 +539,6 @@ a {
   background-color: var(--headline-h2-color);
   z-index: 0;
 }
-
 .footer__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,12 +548,10 @@ a {
           justify-content: space-between;
   margin-bottom: 80px;
 }
-
 .footer__address {
   white-space: nowrap;
   font-size: 16px;
 }
-
 .footer__address ul {
   font-style: normal;
   margin-top: 24px;
@@ -578,8 +570,7 @@ a {
 .footer__nav {
   font-weight: 700;
 }
-.footer__nav p {
-  font-size: 24px;
+.footer__nav--title {
   white-space: nowrap;
   color: var(--white-color);
   margin-bottom: 34px;
@@ -646,23 +637,20 @@ a {
   font-size: 12px;
 }
 
-.social__list {
+.social-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 12px;
 }
-
-.social__list svg {
+.social-list svg {
   -webkit-transition: stroke 0.2s ease, -webkit-transform 0.2s ease;
   transition: stroke 0.2s ease, -webkit-transform 0.2s ease;
   transition: stroke 0.2s ease, transform 0.2s ease;
   transition: stroke 0.2s ease, transform 0.2s ease, -webkit-transform 0.2s ease;
   outline: none;
 }
-
-.social__list svg:hover,
-.social__list svg:focus {
+.social-list svg:hover, .social-list svg:focus {
   -webkit-box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
           box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
   -webkit-transform: translateY(-5px) scale(2);

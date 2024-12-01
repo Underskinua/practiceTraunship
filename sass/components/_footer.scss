@@ -1,29 +1,30 @@
 .footer {
     padding: 700px 0 108px;
     background-color: var(--headline-h2-color); 
-    z-index: 0;      
-}
+    z-index: 0;  
+    
+    &__wrapper {
+        display: flex; 
+        justify-content: space-between;   
+        margin-bottom: 80px;
+    }
+    
+    &__address {
+        white-space: nowrap;   
+        font-size: 16px;   
+    }
+    
+    &__address ul {    
+        font-style: normal;
+        margin-top: 24px;
+            & li {
+                margin-bottom: 18px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+            }
+    }
 
-.footer__wrapper {
-    display: flex; 
-    justify-content: space-between;   
-    margin-bottom: 80px;
-}
-
-.footer__address {
-    white-space: nowrap;   
-    font-size: 16px;   
-}
-
-.footer__address ul {    
-    font-style: normal;
-    margin-top: 24px;
-        & li {
-            margin-bottom: 18px;
-                &:last-child {
-                    margin-bottom: 0;
-                }
-        }
 }
 
 .link-contact {
@@ -32,8 +33,8 @@
 
 .footer__nav {
     font-weight: 700;
-        & p {            
-            font-size: 24px;
+        &--title {            
+            
             white-space: nowrap;   
             color: var(--white-color);
             margin-bottom: 34px;                
@@ -93,18 +94,20 @@
         }
 }
 
-.social__list {
+.social-list {
     display: flex;
-    gap: 12px;     
+    gap: 12px;   
+    
+    & svg {
+        transition: stroke 0.2s ease, transform 0.2s ease; 
+        outline: none;    
+      }
+    
+    & svg:hover,
+    & svg:focus {     
+        box-shadow: 0px 21px 6px -8px rgba(51, 51, 51, 1);
+        transform: translateY(-5px) scale(2);    
+      }
+ 
 }
 
-.social__list svg {
-    transition: stroke 0.2s ease, transform 0.2s ease; 
-    outline: none;    
-  }
-
-.social__list svg:hover,
-.social__list svg:focus {     
-    box-shadow: 0px 21px 6px -8px rgba(51, 51, 51, 1);
-    transform: translateY(-5px) scale(2);    
-  }

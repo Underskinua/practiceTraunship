@@ -7,35 +7,38 @@
     position: absolute;
     z-index: 1; 
     width: 100%;
-}
 
-.review__list {
-    display: flex;
-    justify-content: space-between;
-    color: var(--headline-h4-color);   
-    gap: 30px; 
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        color: var(--headline-h4-color);   
+        gap: 30px; 
+    }
+
 }
 
 .review-card {
     width: 350px;
     text-align: center;
+
+    &__image {
+        margin: 0 auto 24px auto;    
+    }
+    
+    &__text {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    
+    &--title {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    
+    &__info {
+        font-size: 16px;
+    }
+
 }
 
-.review-card__image {
-    margin: 0 auto 24px auto;    
-}
-
-.review-card__text {
-    font-size: 24px;
-    margin-bottom: 24px;
-}
-
-.review-card__title {
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 4px;
-}
-
-.review-card__info {
-    font-size: 16px;
-}
