@@ -28,8 +28,18 @@ img {
 }
 
 a {
-    text-decoration: none;
-    color: green;
+    text-decoration: none;    
+}
+
+.title-l {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--headline-h2-color);   
+}
+
+.title-m {
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .visually-hidden {

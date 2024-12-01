@@ -3,9 +3,6 @@
 }
 
 .articles__title {    
-    font-weight: 700;
-    font-size: 64px;
-    color: var(--bg-footer-color);
     text-align: center;
     margin-bottom: 35px;
 }
@@ -32,18 +29,17 @@
 
 .article-card__content {    
     margin-left: 30px;    
-        & h3 {
-            font-weight: 700;
-            font-size: 24px;
-            color: var(--headline-h4-color);
-            margin-bottom: 12px;
-        }
-
+        
         & h3 + p {
             font-size: 16px;
             line-height: 1.6;
             margin-bottom: 12px;
         }    
+}
+
+.artical-card__content-title {            
+    color: var(--headline-h4-color);
+    margin-bottom: 12px;
 }
 
 .article-card__link {

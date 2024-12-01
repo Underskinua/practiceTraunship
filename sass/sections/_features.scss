@@ -1,20 +1,17 @@
 .features {
-    padding: 120px 0 153px;         
-    
-    & .features__description {
-        width: 920px;
-        font-size: 24px;
-        text-align: center;
-        margin: 0 auto 132px;
-    }
+    padding: 120px 0 153px;        
 }
 
-.features__title {    
-    font-weight: 700;
-    font-size: 64px;
-    color: var(--headline-h2-color);      
+.features__title {          
     text-align: center;  
     margin-bottom: 24px;    
+}
+
+.features__description {
+    width: 920px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto 204px;
 }
 
 .features__items {
@@ -30,30 +27,28 @@
 
     & svg {
         padding: 0 151px 30px;
-    }
-
-    & h3 {
-        font-weight: 700;
-        font-size: 24px;
-        color: var(--active-color);        
-        text-align: center;
-        margin-bottom: 18px;        
-    }
-
-    & p {
-        font-size: 14px;
-        width: 222px;
-        padding: 0 64px;
-        text-align: center;
-        word-wrap: break-word;
-    }
+    }    
 }
 
-.features__card {
-    position: relative;
+.features-card {
+    position: relative;    
 }
 
-.features__card:before {
+.features-card__title {        
+    color: var(--active-color);        
+    text-align: center;
+    margin-bottom: 18px;        
+}
+
+.feature-card__text {
+    font-size: 14px;
+    width: 222px;
+    padding: 0 64px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.features-card:before {
     content: "";
     display: inline-block;
     position: absolute;
