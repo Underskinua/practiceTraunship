@@ -6,19 +6,16 @@
     height: 600px;            
 }
 
-.testimonial__card {
+.testimonial-card {
     width: 445px;    
-    padding-top: 132px;    
-    padding-left: 710px;
+    padding: 132px 0 0 710px;    
        
-    & blockquote {
-        font-weight: 700;
-        font-size: 48px;
+    & blockquote {        
         color: var(--brown-color);
         margin: 0 0 18px 0;           
     }
     
-    & p {
+    &__description {
         font-size: 24px;
         color: var(--brown-color);
         margin-bottom: 28px;

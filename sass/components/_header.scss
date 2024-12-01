@@ -1,29 +1,31 @@
-.header a {
+.header {
+
+    a {
     color: var(--white-color);
+    }
+
+    &__wrap {
+        display: flex;   
+        align-items: center;    
+        justify-content: space-between;
+        position: absolute;
+        margin: 77px auto;   
+        z-index: 9;     
+    }
 }
 
 .logo {
     margin-right: 224px;    
 }
 
-.header__wrap {
-    display: flex;   
-    align-items: center;    
-    justify-content: space-between;
-    position: absolute;
-    margin: 77px auto;   
-    z-index: 9;     
-}
-
-
 .menu {
     margin-right: 176px;
-}
 
-.menu__items {
-    display: flex;
-    gap: 50px;
-    font-size: 18px;       
+    &__items {
+        display: flex;
+        gap: 50px;
+        font-size: 18px;       
+    }
 }
 
 
