@@ -28,7 +28,16 @@ img {
 }
 
 a {
-    text-decoration: none;    
+    text-decoration: none;  
+    color: inherit;  
+}
+
+label {
+    display: block;
+}
+
+::placeholder {
+    font: inherit;
 }
 
 .title-lg {

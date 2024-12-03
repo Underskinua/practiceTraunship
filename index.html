@@ -432,13 +432,17 @@
             <div class="footer__subscriber">
               <h3 class="title-sm footer__nav--title">Newsletter</h3>
               <div class="subscriber-form">
-                <form class="subscriber-form__title">
-                  <p>We send updates in every week</p>
+                <form class="">
+                  <div class="subscriber-form__title">
+                     <p>We send updates in every week</p>
+                  </div>
                   <div class="subscriber-form__content">
+                    <label class="subscriber-form__label" for="email">enter text in the form field</label>
                     <input
                       name="Email_Addres"
                       class="subscriber-form__field"
                       type="email"
+                      id="email"                      
                       placeholder="Email Addres"
                       required
                     />
@@ -449,8 +453,10 @@
             </div>
           </div>
 
-          <div class="footer__bottom">
-            <p>© 2021 Traunship. All right reserved.</p>
+          <div class="footer-bottom">
+            <div class="footer-bottom__text">
+              <p>© 2021 Traunship. All right reserved.</p>
+            </div>
             <ul class="social-list">
               <li>
                 <a href="#" target="_blank">

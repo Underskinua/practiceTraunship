@@ -1,0 +1,38 @@
+
+
+.subscriber-form {    
+
+    width: 420px;
+    background-color: rgba(255, 255, 255, 0.18);
+    padding: 42px 28px 40px 25px;
+    border-radius: 8px;
+
+        &__content {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        &__label {
+            display: none;
+        }
+
+        &__title {
+            font-weight: 400;
+            font-size: 18px;
+            color: var(--white-color);
+            margin-bottom: 24px;    
+        }
+
+        &__field {
+            width: 287px;
+            padding: 15px 0 14px 19px;
+            border-radius: 4px;
+            margin-right: 18px;
+            font-size: 14px;
+        }
+
+}
+
+
+
+
