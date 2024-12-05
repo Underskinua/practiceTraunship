@@ -12,8 +12,7 @@
     }
 
     &__items {
-        display: flex;
-        justify-content: space-between;
+        @include d-flex;
         flex-wrap: wrap;
         gap: 40px 30px;   
     }

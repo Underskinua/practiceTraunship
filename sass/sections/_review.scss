@@ -9,8 +9,7 @@
     width: 100%;
 
     &__list {
-        display: flex;
-        justify-content: space-between;
+        @include d-flex;
         color: var(--headline-h4-color);   
         gap: 30px; 
     }
