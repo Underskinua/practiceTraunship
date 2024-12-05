@@ -678,6 +678,6 @@ label {
   border: 2px solid red;
 }
 .social-list__link--facebook {
-  mask-image: url("../../images/footer/icon-facebook.svg");
-  -webkit-mask-image: url("../../images/footer/icon-facebook.svg");
+  mask-image: url("./../../images/footer/icon-facebook.svg");
+  -webkit-mask-image: url("./../../images/footer/icon-facebook.svg");
 }/*# sourceMappingURL=main.css.map */

@@ -17,8 +17,8 @@
         border: 2px solid red;
 
         &--facebook {
-            mask-image: url('../../images/footer/icon-facebook.svg');
-            -webkit-mask-image: url('../../images/footer/icon-facebook.svg');
+            mask-image: url('./../../images/footer/icon-facebook.svg');
+            -webkit-mask-image: url('./../../images/footer/icon-facebook.svg');
         }
     }
     // & svg {
