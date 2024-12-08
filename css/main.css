@@ -151,15 +151,19 @@ label {
   font-weight: 400;
 }
 
-.play {
+.btn--play {
   width: 80px;
   height: 80px;
   padding: 28px;
   border-radius: 50%;
   margin-bottom: 40px;
+  background-image: url(../images/hero/icon-play.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
 }
-.play svg {
-  text-align: center;
+.btn--play:hover {
+  background-size: 36px;
 }
 
 .menu__links a,
@@ -181,8 +185,8 @@ label {
   width: 0;
   left: 0;
   bottom: -10px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .menu__links a:hover,
@@ -666,18 +670,39 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 24px;
-  height: 24px;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-position: center;
-  -webkit-mask-position: center;
-  background-color: white;
-  border: 2px solid red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 12.01px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-transition: stroke 0.2s ease, -webkit-transform 0.2s ease;
+  transition: stroke 0.2s ease, -webkit-transform 0.2s ease;
+  transition: stroke 0.2s ease, transform 0.2s ease;
+  transition: stroke 0.2s ease, transform 0.2s ease, -webkit-transform 0.2s ease;
+  outline: none;
 }
 .social-list__link--facebook {
-  mask-image: url("./../../images/footer/icon-facebook.svg");
-  -webkit-mask-image: url("./../../images/footer/icon-facebook.svg");
+  background-image: url(../images/footer/icon-fb.svg);
+}
+.social-list__link--twitter {
+  background-image: url(../images/footer/icon-twitter.svg);
+}
+.social-list__link--instagram {
+  background-image: url(../images/footer/icon-instagram.svg);
+}
+.social-list__link--linkedin {
+  background-image: url(../images/footer/icon-linkedin.svg);
+}
+.social-list :hover,
+.social-list :focus {
+  -webkit-box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
+          box-shadow: 0px 21px 6px -8px rgb(51, 51, 51);
+  -webkit-transform: translateY(-5px) scale(2);
+          transform: translateY(-5px) scale(2);
 }/*# sourceMappingURL=main.css.map */
