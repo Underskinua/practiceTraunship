@@ -40,20 +40,23 @@ label {
     font: inherit;
 }
 
-.title-lg {
-    font-weight: 700;
-    font-size: 64px;
-    color: var(--headline-h2-color);   
+.flex-container {
+    display: flex; 
+    justify-content: space-between; 
 }
 
-.title-md {
-    font-weight: 700;
-    font-size: 48px;
-}
+$headings: (
+    "title-lg": (700, 64px, var(--headline-h2-color)),
+    "title-md": (700, 48px, var(--text-color)),
+    "title-sm": (700, 24px, var(--text-color))
+);
 
-.title-sm {
-    font-weight: 700;
-    font-size: 24px;
+@each $name, $props in $headings {
+    .#{$name} {
+        font-weight: nth($props, 1);
+        font-size: nth($props, 2);
+        color: nth($props, 3);
+    }
 }
 
 .description {

@@ -55,6 +55,15 @@ label {
   font: inherit;
 }
 
+.flex-container, .subscriber-form__content, .footer-bottom, .footer__wrapper, .review__list, .articles__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .title-lg {
   font-weight: 700;
   font-size: 64px;
@@ -64,11 +73,13 @@ label {
 .title-md {
   font-weight: 700;
   font-size: 48px;
+  color: var(--text-color);
 }
 
 .title-sm {
   font-weight: 700;
   font-size: 24px;
+  color: var(--text-color);
 }
 
 .description {
@@ -396,12 +407,6 @@ label {
   margin: 0 auto 90px;
 }
 .articles__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px 30px;
@@ -533,12 +538,6 @@ label {
   width: 100%;
 }
 .review__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   color: var(--headline-h4-color);
   gap: 30px;
 }
@@ -569,12 +568,6 @@ label {
   z-index: 0;
 }
 .footer__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-bottom: 80px;
 }
 .footer__address {
@@ -617,12 +610,6 @@ label {
 }
 
 .footer-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 40px 0 45px;
 }
 .footer-bottom__text {
@@ -634,14 +621,6 @@ label {
   background-color: rgba(255, 255, 255, 0.18);
   padding: 42px 28px 40px 25px;
   border-radius: 8px;
-}
-.subscriber-form__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 .subscriber-form__label {
   display: none;

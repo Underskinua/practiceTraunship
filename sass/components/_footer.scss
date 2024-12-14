@@ -4,7 +4,7 @@
     z-index: 0;  
     
     &__wrapper {
-        @include d-flex; 
+        @extend .flex-container; 
         margin-bottom: 80px;
     }
     
@@ -52,7 +52,7 @@
 }
 
 .footer-bottom {
-    @include d-flex;
+    @extend .flex-container;
     padding: 40px 0 45px;
 
         &__text {      
