@@ -12,8 +12,8 @@
 
     &:hover, 
     &:focus {
-    box-shadow: 0px 21px 6px -8px rgba(51, 51, 51, 1); 
-    transform: translateY(-5px) scale(1.05); 
+        box-shadow: 0px 21px 6px -8px rgba(51, 51, 51, 1); 
+        transform: translateY(-5px) scale(1.05); 
     }
 
     &--transparent {
@@ -43,42 +43,30 @@
     }
 }
 
-.menu__links a,
-.link-contact,
-.footer-nav__link  a {
-    position: relative; 
+.link-hover-effect {
+    position: relative;
     color: var(--white-color);
-    transition: 0,3s ease;
-}
-
-.menu__links a:after,
-.link-contact:after,
-.footer-nav__link a:after  {
-    content: "";
-    position: absolute;
-    background-color: var(--hover-color);
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
     transition: 0.3s ease;
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: var(--hover-color);
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s ease;
+    }
+
+    &:hover,
+    &:focus {
+        color: var(--hover-color);
+
+        &::after {
+            width: 100%;
+        }
+    }
 }
 
-.menu__links a:hover,
-.menu__links a:focus,
-.link-contact:hover, 
-.link-contact:focus,
-.footer-nav__link a:hover,
-.footer-nav__link a:focus {
-    color: var(--hover-color);
-}
-
-.menu__links a:hover:after,
-.menu__links a:focus:after, 
-.link-contact:hover:after, 
-.link-contact:focus:after,
-.footer-nav__link a:hover:after,
-.footer-nav__link a:focus:after {
-    width: 100%;
-}
 

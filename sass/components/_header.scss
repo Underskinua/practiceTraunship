@@ -5,9 +5,8 @@
     }
 
     &__wrap {
-        display: flex;   
+        @extend %flex-container;
         align-items: center;    
-        justify-content: space-between;
         position: absolute;
         margin: 77px auto;   
         z-index: 9;     

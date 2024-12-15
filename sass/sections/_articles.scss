@@ -6,13 +6,12 @@
         margin-bottom: 35px;
     }
     
-    &__description {  
-        
+    &__description {          
         margin: 0 auto 90px;       
     }
 
     &__items {
-        @extend .flex-container;
+        @extend %flex-container;
         flex-wrap: wrap;
         gap: 40px 30px;   
     }

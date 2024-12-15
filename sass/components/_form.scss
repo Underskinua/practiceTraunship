@@ -8,7 +8,7 @@
     border-radius: 8px;
 
         &__content {
-            @extend .flex-container;
+            @extend %flex-container;
         }
         
         &__label {

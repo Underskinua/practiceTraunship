@@ -4,38 +4,40 @@
     z-index: 0;  
     
     &__wrapper {
-        @extend .flex-container; 
+        @extend %flex-container; 
         margin-bottom: 80px;
     }
     
     &__address {
         white-space: nowrap;   
         font-size: 16px;   
-    }
-    
-    &__address ul {    
+     ul {    
         font-style: normal;
         margin-top: 24px;
-            & li {
+    
+        li {
                 margin-bottom: 18px;
                     &:last-child {
                         margin-bottom: 0;
                     }
             }
+        }
     }
 
 }
 
 .footer__nav {
     font-weight: 700;
-        &--title {            
-            
+
+        &--title {              
             white-space: nowrap;   
             color: var(--white-color);
             margin-bottom: 34px;                
         }
-            & li {
+        
+        li {
                 margin-bottom: 8px;
+
                 &:last-child {
                     margin-bottom: 0;
                 }
@@ -52,7 +54,7 @@
 }
 
 .footer-bottom {
-    @extend .flex-container;
+    @extend %flex-container;
     padding: 40px 0 45px;
 
         &__text {      

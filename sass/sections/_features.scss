@@ -28,8 +28,6 @@
     }
 }
 
-
-
 .features-card {
     position: relative;    
 
@@ -64,16 +62,10 @@
 
 @each $name, $url in (
     solid-fuel:"../images/features/icon-solid-fuel.svg",
-
     liquid-fuel:"../images/features/icon-liquid-fuel.svg",
-
     ion-rocket:"../images/features/icon-ion-rocket.svg",
-
     plasma-rocket:"../images/features/icon-plasma-rocket.svg",
-
     super-sonic-rocket:"../images/features/icon-super-sonic-rocket.svg",
-
-
     ultra-rocket:"../images/features/icon-ultra-rocket.svg") {
         .icon-#{$name}::before {
             background-image: url($url);
