@@ -13,9 +13,9 @@
 }
 
 $headings: (
-    "title-lg": (700, 64px, var(--headline-h2-color)),
-    "title-md": (700, 48px, var(--text-color)),
-    "title-sm": (700, 24px, var(--text-color))
+    "title-lg": (700, 4rem, var(--headline-h2-color)),
+    "title-md": (700, 3rem, var(--text-color)),
+    "title-sm": (700, 1.5rem, var(--text-color))
 );
 
 @each $name, $props in $headings {

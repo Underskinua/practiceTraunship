@@ -1,5 +1,5 @@
 .review {
-    padding: 113px 0 221px; 
+    padding: 7.0625rem 0 13.8125rem; /* 113px -> 7.0625rem, 221px -> 13.8125rem */
     background-image: url(./../images/review/bg-ellips.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,32 +11,32 @@
     &__list {
         @extend %flex-container;
         color: var(--headline-h4-color);   
-        gap: 30px; 
+        gap: 1.875rem; /* 30px -> 1.875rem */ 
     }
 
 }
 
 .review-card {
-    width: 350px;
+    width: 21.875rem; /* 350px -> 21.875rem */
     text-align: center;
 
     &__image {
-        margin: 0 auto 24px auto;    
+        margin: 0 auto 1.5rem auto; /* 24px -> 1.5rem */    
     }
     
     &__text {
-        font-size: 24px;
-        margin-bottom: 24px;
+        font-size: 1.5rem; /* 24px -> 1.5rem */
+        margin-bottom: 1.5rem; /* 24px -> 1.5rem */
     }
     
     &--title {
         font-weight: 700;
-        font-size: 20px;
-        margin-bottom: 4px;
+        font-size: 1.25rem; /* 20px -> 1.25rem */
+        margin-bottom: 0.25rem; /* 4px -> 0.25rem */
     }
     
     &__info {
-        font-size: 16px;
+        font-size: 1rem; /* 16px -> 1rem */
     }
 
 }

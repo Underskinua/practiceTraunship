@@ -4,26 +4,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    height: 920px;    
+    height: 57.5rem; /* 920px -> 57.5rem */    
     position: relative;
 
     &__wrap {
-      padding-top: 279px;
+      padding-top: 17.4375rem; /* 279px -> 17.4375rem */
       text-align: center;          
    }
   
   &__title {
      font-weight: 700;
-     font-size: 72px;
+     font-size: 4.5rem; /* 72px -> 4.5rem */
      color: var(--white-color);        
-     text-shadow: 4px 2px 4px 0 rgba(0, 0, 0, 0.25);
-     margin-bottom: 8px;
+     text-shadow: 0.25rem 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.25); /* 4px -> 0.25rem, 2px -> 0.125rem */
+     margin-bottom: 0.5rem; /* 8px -> 0.5rem */
    }
   
   &__description {
-     font-size: 24px;
+    font-size: 1.5rem; /* 24px -> 1.5rem */
      color: var(--white-color);
-     margin-bottom: 40px;
+     margin-bottom: 2.5rem; /* 40px -> 2.5rem */
    }
 
  }

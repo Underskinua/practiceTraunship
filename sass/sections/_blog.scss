@@ -1,76 +1,73 @@
 .blog {
-    padding: 100px 0 97px;
+    padding: 6.25rem 0 6.0625rem; /* 100px -> 6.25rem, 97px -> 6.0625rem */
     background: var(--bg-blog-color);
 
     &__wrapper {
         display: flex;
-        gap: 30px;
+        gap: 1.875rem; /* 30px -> 1.875rem */
     }
     
     &--title {    
         color: var(--headline-h3-color);
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem; /* 24px -> 1.5rem */
     }
     
     &__description {
         font-weight: 400;
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px -> 1.5rem */
         color: var(--text-color);
-        margin-bottom: 42px;
+        margin-bottom: 2.625rem; /* 42px -> 2.625rem */
     }
     
     &__list {
         display: flex;
-        gap: 30px;
+        gap: 1.875rem; /* 30px -> 1.875rem */
     }
     
 }
 
-
-
 .blog-card {
-    border-radius: 8px;  
+    border-radius: 0.5rem;  /* 8px -> 0.5rem */  
     background: var(--white-color);  
     
     &.shadow {
-        box-shadow: 4px 4px 40px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0.25rem 0.25rem 2.5rem 0 rgba(0, 0, 0, 0.12); /* 4px -> 0.25rem, 40px -> 2.5rem */
     }
 
     &__content {
-        padding: 25px 28px 79px 30px;
+        padding: 1.5625rem 1.75rem 4.9375rem 1.875rem; /* 25px -> 1.5625rem, 28px -> 1.75rem, 79px -> 4.9375rem, 30px -> 1.875rem */
     }
     
     &--title {
         font-weight: 700;
-        font-size: 30px;
+        font-size: 1.875rem; /* 30px -> 1.875rem */
         color: var(--headline-h3-color);
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem; /* 24px -> 1.5rem */
     }
     
     &__text {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px -> 1.25rem */
         color: var(--text-color);
-        margin-bottom: 32px;
+        margin-bottom: 2rem; /* 32px -> 2rem */
     }
-
 
 }
 
 .blog-card__link {   
     position: relative;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px -> 1.25rem */
     color: var(--active-color);
 
     &::after {
         content: "";
         position: absolute;
         background-color: var(--hover-color);    
-        height: 3px;     
+        height: 0.1875rem; /* 3px -> 0.1875rem */   
         width: 0;
         left: 0;
-        bottom: -10px;
+        bottom: -0.625rem; /* -10px -> -0.625rem */
         transition: 0.3s;  
     }
 

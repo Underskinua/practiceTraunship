@@ -3,32 +3,32 @@
     background-color: var(--bg-testimonial-color);
     background-repeat: no-repeat;
     background-position: left center;
-    height: 600px;            
+    height: 37.5rem; /* 600px -> 37.5rem */               
 }
 
 .testimonial-card {
-    width: 445px;    
-    padding: 132px 0 0 710px;    
+    width: 27.8125rem; /* 445px -> 27.8125rem */    
+    padding: 8.25rem 0 0 44.375rem; /* 132px -> 8.25rem, 710px -> 44.375rem */  
        
     & blockquote {        
         color: var(--brown-color);
-        margin: 0 0 18px 0;           
+        margin: 0 0 1.125rem 0;           
     }
     
     &__description {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px -> 1.5rem */
         color: var(--brown-color);
-        margin-bottom: 28px;
+        margin-bottom: 1.75rem; /* 28px -> 1.75rem */
     }
 }
 
 .testimonial__details {
     display: flex;    
     align-items: center;
-    gap: 24px;    
+    gap: 1.5rem;  /* 24px -> 1.5rem */  
     
     & p:nth-child(2) {
-        font-size: 18px;
+        font-size: 1.125rem;  /* 18px */
         color: var(--headline-h2-color);
         margin-bottom: 0;
     }
