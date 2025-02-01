@@ -14,16 +14,24 @@
 }
 
 .logo {
-    margin-right: 14rem; /* 224px -> 14rem */   
+    margin-right: 14rem; /* 224px -> 14rem */     
 }
 
 .menu {
     margin-right: 11rem; /* 176px -> 11rem */
 
+    @include rmax($md) {
+        margin-right: 4rem;
+    }
+
     &__links {
         display: flex;
         gap: 3.125rem; /* 50px -> 3.125rem */
-        font-size: 1.125rem; /* 18px -> 1.125rem */      
+        font-size: 1.125rem; /* 18px -> 1.125rem */   
+        
+        @include rmax($md) {
+            font-size: 0;
+        }
     }
 }
 

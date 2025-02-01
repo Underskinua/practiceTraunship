@@ -1,7 +1,9 @@
 @import './property/base-styles';
+@import './property/mixins';
 @import './property/utils';
 @import './property/variables';
 @import './property/typography';
+@import './components/burger';
 @import './components/buttons';
 @import './components/header';
 @import './sections/hero';
